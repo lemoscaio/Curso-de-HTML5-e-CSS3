@@ -1,4 +1,2 @@
 # Curso-de-HTML5-e-CSS3
  Material desenvolvido durante o curso de HTML5 e CSS3 do Curso em Vídeo.
-
- O material é dividido entre os exercícios realizados durante as aulas e aos desafios realizados sozinho. 
