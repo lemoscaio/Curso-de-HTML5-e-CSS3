@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'moonget';
+    src: url("fonts/moon_get-Heavy.otf") format("opentype"), url("fonts/moon_get-Heavy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+/*  SELETORES PERSONALIZADOS
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = children
+*/
+
+body{
+    background-image: linear-gradient(to right, #e4e9ee, #727272);
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;   
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color:darkred
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color:yellow
+}
+
+a::after {
+    content: " [link]";
+    text-decoration: none;
+    font-weight: normal;
+    color: darkblue;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 15px #215fa1;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+   color: #222325;
+   font-family: moonget;
+   text-align: left;
+   font-size: 1.7em;
+}
+
+h1#principal{
+    text-align: center;
+    font-size: 2em;
+}
+
+h2{
+    font-family:  'moonget',sans-serif;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #fd9800;
+    text-align: left;
+    text-shadow: 1px 1px 0.5px #683e00 ;
+}
+
+.basico{
+    color:lightgreen;
+    
+}
+
+.intermediario{
+    color:gold;
+}
+
+.avançado{
+    color:crimson;
+}
+
+p{
+    text-align: justify;
+
+}

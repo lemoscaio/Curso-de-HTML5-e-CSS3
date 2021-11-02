@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'moonget';
+    src: url("fonts/moon_get-Heavy.otf") format("opentype"), url("fonts/moon_get-Heavy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    /* 
+    Tipos de format()
+    - opentype (otf)
+    - trutype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    -svg
+     */
+}
+
+body{
+    background-image: linear-gradient(to right, #194B80, #2978CC);
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 15px #215fa1;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+   color: #0f4783;
+   font-family: moonget;
+   text-align: center;
+   
+}
+
+h2{
+    font-family:  'moonget',sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #194B80;
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}

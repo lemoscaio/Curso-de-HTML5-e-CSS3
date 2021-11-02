@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Work Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 100% */    
+    /* 
+    Medidas Absolutas
+    cm, mm, in, ~px~, pt, pc
+
+    Medidas Relativas
+    ~em~, ex, rem, vw, vh, %
+    */
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #194B80, #2978CC);
+    font-size: 1.1em;
+    font-weight: 500;
+    /* lighter normal bold bolder */
+    font-style: oblique;
+    text-decoration: dashed;
+    
+    /* shorthand font
+    
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    
+    /* font: italic bolder 1.2em 'Work Sans', sans-serif; */
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 15px #215fa1;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+   color: #0f4783;
+   font-family: Gotham;
+   text-align: center;
+   
+}
+
+h2{
+    color: #194B80;
+}
+
+p{
+    text-align: justify;
+}
