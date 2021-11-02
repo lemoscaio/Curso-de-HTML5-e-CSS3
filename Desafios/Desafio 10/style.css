@@ -5,6 +5,10 @@
     src: url(fontes/idroid.otf) format("opentype");
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 :root {
     --cor0: #ebe5c5;
     --cor1: #83e1ad;
