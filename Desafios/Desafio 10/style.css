@@ -150,8 +150,6 @@ section {
 }
 
 section > iframe {
-    /* display: block; */
-    /* padding: 15px; */
     margin: 0 auto;
     position: absolute; 
     top: 4%; 
@@ -218,7 +216,7 @@ a.external::after {
 
 .divArticle {
     margin-top: 10px;
-    padding: 0px 20px 5px 5px;
+    padding: 0px 5px 5px 5px;
 }
 
 .final {
