@@ -195,13 +195,10 @@ ul {
 }
 
 li {
-    list-style: none;
+    list-style: "\2714\00A0\00A0";
     list-style-position: inside;
 }
 
-li::before {
-    content: "\2714  ";
-}
 
 a {
     color: #34773d;
